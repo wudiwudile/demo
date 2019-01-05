@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import com.cxy.pojo.CxyJSONResult;
 
-@RestControllerAdvice
+//@RestControllerAdvice
 public class CxyAjaxExceptionHandler {
 
-	@ExceptionHandler(value = Exception.class)
+	//@ExceptionHandler(value = Exception.class)
 	public CxyJSONResult defaultErrorHandler(HttpServletRequest req, 
 			Exception e) throws Exception {
 
