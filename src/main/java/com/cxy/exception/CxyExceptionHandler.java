@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.cxy.pojo.CxyJSONResult;
-
+//异常助手类，抛出异常会被其捕获，其实现errorHandler进行处理
 @ControllerAdvice
 public class CxyExceptionHandler {
 
